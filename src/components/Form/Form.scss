@@ -30,6 +30,7 @@
 
     &--decorator {
       background-color: $principal;
+      display: none;
       height: 60%;
       position: absolute;
       top: 0;
@@ -72,6 +73,7 @@
       }
 
       &--decorator {
+        display: initial;
         margin-top: 9em;
       }
 
