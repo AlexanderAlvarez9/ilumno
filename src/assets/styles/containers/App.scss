@@ -1,56 +1,43 @@
 /*--- VARS ----*/
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 :root {
-  --background: #D2D6DE;
-  --background-contrast: #222D32;
-  --background-gray: #EFEFEF;
-  --border: 1px solid #e5edef;
-  --boder-color: #99999999;
-  --card: #fff;
-  --principal: #3C8DBC;
-  --principal-contrast: #D91E62;
-  --secondary: #367FA9;
-  --alert: #00BB2D;
-  --alert-contrast: #00BB2D99;
-  --font-color: #9A9A9A;
-  --white: #fff;
-  --padding: 1.5em;
-  --panel-padding: 0 0.3em 0 0.3em;
-  --margin: 2em;
-  --gap: 1em;
-  --radius: 1em;
-
-  --link: #fff;
-  --visited: #fff;
-  --hover: #fff;
-  --active: #fff;
+  --background: #ffffff;
 }
+
+//Variables
+
+$principal: #49a9cf;
+$principal-contrast: #bbd550;
+$background: #fff;
+$background-2: #eee;
+$background-contrast: #584f48;
+$font: #938b83;
 
 /* unvisited link */
 a:link {
-  color: var(--link)
+  color: var(--link);
 }
 
 /* visited link */
 a:visited {
-  color: var(--visited)
+  color: var(--visited);
 }
 
 /* mouse over link */
 a:hover {
-  color: var(--hover)
+  color: var(--hover);
 }
 
 /* selected link */
 a:active {
-  color: var(--active)
+  color: var(--active);
 }
 
 body {
   background-color: var(--background);
-  color: #222D32;
+  color: #222d32;
   font-family: 'Lato', sans-serif;
   margin: 0;
 }
@@ -97,7 +84,7 @@ body {
 @mixin label {
   font-size: 1.2em;
   font-weight: bold;
-  margin-top: 1.0em;
+  margin-top: 1em;
   margin: 0 auto;
   margin-bottom: 0.5em;
 }
